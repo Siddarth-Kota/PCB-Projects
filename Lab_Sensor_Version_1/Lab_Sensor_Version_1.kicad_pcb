@@ -126,7 +126,7 @@
 				)
 			)
 		)
-		(property "Value" "5002"
+		(property "Value" "KEYSTONE_5002"
 			(at 3.2832 2.2064 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -240,7 +240,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "3efe79dc-82d4-4697-9529-8a60128784be")
+			(uuid "9423a219-7962-4991-b153-f9e03c00d458")
 		)
 		(fp_circle
 			(center 0 0)
@@ -251,7 +251,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "07a2f308-3a64-41f5-8211-0460056435a0")
+			(uuid "fc1d7098-6e85-45b0-bd1f-e3e37170edc7")
 		)
 		(fp_circle
 			(center 0 0)
@@ -262,7 +262,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "e8baac4a-8aa7-49a0-89ec-8299059e4250")
+			(uuid "41d68396-0643-4f82-92a0-7626a33da119")
 		)
 		(pad "TP" thru_hole circle
 			(at 0 0 270)
@@ -276,6 +276,17 @@
 			(uuid "c61ebeb6-044b-4b51-a3f6-c73be11e73f4")
 		)
 		(embedded_fonts no)
+		(model "C:/Users/sidko/Desktop/GitHub/PCB-Projects/KiCad/Misc/5002.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Custom_Parts:Standard_LED_Throughhole"
 		(layer "F.Cu")
@@ -354,7 +365,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "a468d201-ce9d-4b29-98ef-ec00be4f0839")
+			(uuid "e22f8879-cff1-486a-8499-3201688c8e37")
 		)
 		(fp_arc
 			(start -2.5 -1.566)
@@ -365,7 +376,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "80625db9-ea03-4de7-91a5-312b737a637f")
+			(uuid "b25208f4-a509-4e78-b53f-b2420c42bca3")
 		)
 		(fp_circle
 			(center -3.2 0)
@@ -376,7 +387,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "25043926-306a-44cc-9437-aae155415da8")
+			(uuid "0f790e62-d27b-4295-a9cd-574132817a8b")
 		)
 		(fp_line
 			(start -2.75 -1.64)
@@ -386,7 +397,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "9c8b7f7f-29ea-4353-a77e-260c9b46910f")
+			(uuid "e8268833-30b2-4107-9130-69158bf4f73d")
 		)
 		(fp_arc
 			(start -2.75 -1.64)
@@ -397,7 +408,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "d4e23468-c2a1-4670-8cdd-eada4158332f")
+			(uuid "57ee2a70-80b2-4c12-9210-a4685ef95085")
 		)
 		(fp_line
 			(start -2.5 -1.566)
@@ -407,7 +418,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "9f265969-c2df-4def-a3f2-79ba40630668")
+			(uuid "ac4803d2-df43-4feb-b124-70d16a845079")
 		)
 		(fp_arc
 			(start -2.5 -1.566)
@@ -418,7 +429,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "fb83e6a8-2136-4798-85e3-83966986af49")
+			(uuid "154caf9b-e274-4eb8-87fc-6ec98564b9df")
 		)
 		(fp_circle
 			(center -3.2 0)
@@ -429,7 +440,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "c1c21db1-7fe9-4621-bf51-f533cd3dcda4")
+			(uuid "20cf0d73-dfd0-4c1e-a871-530009965fec")
 		)
 		(pad "A" thru_hole circle
 			(at 1.27 0 90)
@@ -456,6 +467,17 @@
 			(uuid "d065301b-6630-470a-84eb-876dd3be9752")
 		)
 		(embedded_fonts no)
+		(model "C:/Users/sidko/Desktop/GitHub/PCB-Projects/KiCad/Misc/LED.STEP"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Custom_Parts:INMP441"
 		(layer "F.Cu")
@@ -605,7 +627,7 @@
 			(uuid "e3ed4053-c5ad-4fca-b815-2fe78dd7f14a")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/sidko/Downloads/INMP441 I2S Microphone Module v15.step"
+		(model "C:/Users/sidko/Desktop/GitHub/PCB-Projects/KiCad/Misc/INMP441.step"
 			(offset
 				(xyz 0 0 1)
 			)
@@ -1135,7 +1157,7 @@
 				)
 			)
 		)
-		(property "Value" "5002"
+		(property "Value" "KEYSTONE_5002"
 			(at 3.2832 2.2064 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1249,7 +1271,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "507bfc86-15c9-4c0f-b4ab-b00e28a383be")
+			(uuid "43983625-48be-4c22-ba80-7afd2ed931dd")
 		)
 		(fp_circle
 			(center 0 0)
@@ -1260,7 +1282,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "a1528961-9f30-48ae-a0fc-794b27f2e3b1")
+			(uuid "29cf8a61-3be7-4b4a-9dac-7c9f54dfffe8")
 		)
 		(fp_circle
 			(center 0 0)
@@ -1271,7 +1293,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "8e7dae83-d5c4-43a8-aa4a-87a5e946382e")
+			(uuid "85a5f6b8-5561-478d-81c9-0cd3046e55a8")
 		)
 		(pad "TP" thru_hole circle
 			(at 0 0 270)
@@ -1285,6 +1307,17 @@
 			(uuid "318048b9-c092-4e18-89c4-54c8204fcc5c")
 		)
 		(embedded_fonts no)
+		(model "C:/Users/sidko/Desktop/GitHub/PCB-Projects/KiCad/Misc/5002.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Custom_Parts:ESP32-POE"
 		(layer "F.Cu")
@@ -1301,7 +1334,7 @@
 				)
 			)
 		)
-		(property "Value" "MODULE_ESP32-POE"
+		(property "Value" "ESP32-POE"
 			(at -3.84 41.115 90)
 			(layer "F.Fab")
 			(uuid "fe48b96b-abfb-4a5e-8a2e-bb6293685af8")
@@ -2387,7 +2420,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "3d08a346-2885-42af-be5d-d861fca3afc8")
+			(uuid "997b768e-d396-4426-987e-630d7aad87a0")
 		)
 		(fp_arc
 			(start -2.5 -1.566)
@@ -2398,7 +2431,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "a8bb1efc-155f-405b-a6f0-a5696cdd8cfe")
+			(uuid "c95e6bbe-c011-4b5d-9306-bf54358ee15d")
 		)
 		(fp_circle
 			(center -3.2 0)
@@ -2409,7 +2442,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "4cbd59f5-031f-458c-bc3e-e44ac9f93b80")
+			(uuid "1efea4a9-b12f-4b74-ac22-6227625a26f2")
 		)
 		(fp_line
 			(start -2.75 -1.64)
@@ -2419,7 +2452,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "50f2d209-2260-4875-91bc-58b50e4d6909")
+			(uuid "c5d2e78e-ce11-44af-867b-092b3f1bf6bf")
 		)
 		(fp_arc
 			(start -2.75 -1.64)
@@ -2430,7 +2463,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "908f21e1-f016-4155-87c7-465ed98ef686")
+			(uuid "1f17a6e0-7c23-4c1f-835e-dd0cc3f5e760")
 		)
 		(fp_line
 			(start -2.5 -1.566)
@@ -2440,7 +2473,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "39edcbb7-b4cb-4505-a048-2e6c8c664fc0")
+			(uuid "3b5db35b-a471-4f0f-8d47-f05766ba26df")
 		)
 		(fp_arc
 			(start -2.5 -1.566)
@@ -2451,7 +2484,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "bb8e64e2-22c4-42b4-9589-07425e428d4a")
+			(uuid "2afe1d24-8195-4d66-984a-69e5dfdcafef")
 		)
 		(fp_circle
 			(center -3.2 0)
@@ -2462,7 +2495,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "75de2b43-2eb8-40a3-af82-edfeb58d44c7")
+			(uuid "f1c1ebc4-ad79-444e-a968-84d64ce4f433")
 		)
 		(pad "A" thru_hole circle
 			(at 1.27 0 90)
@@ -2489,6 +2522,17 @@
 			(uuid "a749dbbc-e9a5-4457-a5a5-ab64697e5af9")
 		)
 		(embedded_fonts no)
+		(model "C:/Users/sidko/Desktop/GitHub/PCB-Projects/KiCad/Misc/LED.STEP"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Custom_Parts:Standard_LED_Throughhole"
 		(layer "F.Cu")
@@ -2567,7 +2611,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "8e7af08a-8582-40f0-88b3-71c29e73ce93")
+			(uuid "b6f29f5d-5375-4991-b7b9-f585aedd5482")
 		)
 		(fp_arc
 			(start -2.5 -1.566)
@@ -2578,7 +2622,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "e040747f-536c-4c90-8d01-9b6c07dbc0b4")
+			(uuid "f1dc3781-dea2-4cc4-92d9-c54df04049b4")
 		)
 		(fp_circle
 			(center -3.2 0)
@@ -2589,7 +2633,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "45858d34-6a43-4ac3-8406-79a53f802c7f")
+			(uuid "a335b857-37b4-4615-892b-b4a6a8fd3731")
 		)
 		(fp_line
 			(start -2.75 -1.64)
@@ -2599,7 +2643,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "45ea8a3a-f7fc-447c-bf54-0b38aad1de38")
+			(uuid "7c7e9883-8faa-4ceb-8134-bc57653a628c")
 		)
 		(fp_arc
 			(start -2.75 -1.64)
@@ -2610,7 +2654,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "64f417fa-b5a0-4e29-87db-ae2e9d2383f4")
+			(uuid "d24a8ad2-4bcc-45c8-9dde-0ade3dad533f")
 		)
 		(fp_line
 			(start -2.5 -1.566)
@@ -2620,7 +2664,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "1bb4c6e3-317d-457c-84ec-49f41ffc4c32")
+			(uuid "335cb0d9-9196-46c9-9af9-79447622e132")
 		)
 		(fp_arc
 			(start -2.5 -1.566)
@@ -2631,7 +2675,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "c0d60da1-96e7-4c98-9395-060cca060fa5")
+			(uuid "4190e7ab-5599-43b7-9547-9abd00ae8e2f")
 		)
 		(fp_circle
 			(center -3.2 0)
@@ -2642,7 +2686,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "70fc6cd0-536f-402d-be7c-16aa458e9b25")
+			(uuid "01ea50c2-ea42-4f8a-88b5-8509d3071205")
 		)
 		(pad "A" thru_hole circle
 			(at 1.27 0 90)
@@ -2669,6 +2713,17 @@
 			(uuid "d2939628-c3d8-4f12-a8d0-233af7df534a")
 		)
 		(embedded_fonts no)
+		(model "C:/Users/sidko/Desktop/GitHub/PCB-Projects/KiCad/Misc/LED.STEP"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Sensor:ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown"
 		(layer "F.Cu")
@@ -3122,15 +3177,15 @@
 			(uuid "a386ad5c-79fc-4f76-9fd4-70d03ad6ec07")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Sensor.3dshapes/ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown.step"
+		(model "C:/Users/sidko/Desktop/GitHub/PCB-Projects/KiCad/Misc/DHT22.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 22.75 3.75 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 90)
 			)
 		)
 	)
@@ -3556,6 +3611,17 @@
 			(uuid "10d7a97e-c908-4467-acb2-5dcf075603e9")
 		)
 		(embedded_fonts no)
+		(model "C:/Users/sidko/Desktop/GitHub/PCB-Projects/KiCad/Misc/SSD1306.step"
+			(offset
+				(xyz 34.5 3.4 3.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "Custom_Parts:Standard_LED_Throughhole"
 		(layer "F.Cu")
@@ -3634,7 +3700,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "bc024e94-cb44-44e4-949f-c0249fa3f0fd")
+			(uuid "da936fd0-a57f-4362-bf8e-f2cda1ce79f5")
 		)
 		(fp_arc
 			(start -2.5 -1.566)
@@ -3645,7 +3711,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "70e18ad3-5375-4204-a269-2f563d419e52")
+			(uuid "243d65ab-ecfe-4b04-99f8-8a1d0b97708e")
 		)
 		(fp_circle
 			(center -3.2 0)
@@ -3656,7 +3722,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "e4c37e23-8560-435f-a425-d3a16d9be7cb")
+			(uuid "79343f8e-4ec5-4a66-8971-34fc1c5a4c56")
 		)
 		(fp_line
 			(start -2.75 -1.64)
@@ -3666,7 +3732,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "3432901b-6a44-473f-9761-edcd4fa3e5f2")
+			(uuid "61644f8d-103d-4c85-b297-627c6d52175b")
 		)
 		(fp_arc
 			(start -2.75 -1.64)
@@ -3677,7 +3743,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "98ced9fe-682c-481f-a384-848ada78ca97")
+			(uuid "3fd73570-2319-429d-8b54-d4c00deb1f3b")
 		)
 		(fp_line
 			(start -2.5 -1.566)
@@ -3687,7 +3753,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "ec800968-b369-42ef-a9fa-5281f8636fe2")
+			(uuid "2561258d-53b3-4a6d-9597-860e2ec6402e")
 		)
 		(fp_arc
 			(start -2.5 -1.566)
@@ -3698,7 +3764,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "d38bd0e5-dd2b-49bc-8483-1a82dcdef734")
+			(uuid "c9021f43-a6de-4689-b341-3b3a4f3cb673")
 		)
 		(fp_circle
 			(center -3.2 0)
@@ -3709,7 +3775,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "ff96c126-eb42-4c71-9188-d03e067f6fde")
+			(uuid "6fa37db8-1a07-4d83-8ea4-9626feef09d0")
 		)
 		(pad "A" thru_hole circle
 			(at 1.27 0 90)
@@ -3736,6 +3802,17 @@
 			(uuid "bb970931-ea2f-4615-be5b-bbdb84ae341e")
 		)
 		(embedded_fonts no)
+		(model "C:/Users/sidko/Desktop/GitHub/PCB-Projects/KiCad/Misc/LED.STEP"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Custom_Parts:Standard_LED_Throughhole"
 		(layer "F.Cu")
@@ -3814,7 +3891,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "a59ed244-8a1d-45b8-a474-99d90f96bda3")
+			(uuid "ad76c02e-2cce-4622-98d4-7e2974adecd2")
 		)
 		(fp_arc
 			(start -2.5 -1.566)
@@ -3825,7 +3902,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "ca467666-ca47-4f6c-aae3-13a3ba6b125f")
+			(uuid "f9b138fe-80b7-429f-abb2-415225be7d07")
 		)
 		(fp_circle
 			(center -3.2 0)
@@ -3836,7 +3913,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "77a5ffc3-2ea1-4599-931a-ac2c0febf74f")
+			(uuid "abdaf569-a06c-4ee5-94e9-7dacba892e84")
 		)
 		(fp_line
 			(start -2.75 -1.64)
@@ -3846,7 +3923,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "55a5ebcc-c5f9-4d0f-9171-ced70d8a4373")
+			(uuid "d087ab10-080c-4c5c-bf34-303b632e2596")
 		)
 		(fp_arc
 			(start -2.75 -1.64)
@@ -3857,7 +3934,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "fdf3cf9e-0db4-4b24-8e56-024c2c15abd0")
+			(uuid "3e97b78b-888a-4109-8104-c8c9c2e7d6bb")
 		)
 		(fp_line
 			(start -2.5 -1.566)
@@ -3867,7 +3944,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "2283c682-817f-49c1-9c13-c47a0dd199b3")
+			(uuid "67c6e672-d083-4207-a9f6-e767e7398eaf")
 		)
 		(fp_arc
 			(start -2.5 -1.566)
@@ -3878,7 +3955,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "d2aec7f1-eed5-46ad-ae4a-2479feee41b3")
+			(uuid "19413d9e-a0b4-450e-8a3c-2e1caf014c90")
 		)
 		(fp_circle
 			(center -3.2 0)
@@ -3889,7 +3966,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "e840a26e-7087-47cc-94e2-f2e6192b36bd")
+			(uuid "19633351-653b-4f04-bb64-59daae008778")
 		)
 		(pad "A" thru_hole circle
 			(at 1.27 0 90)
@@ -3916,6 +3993,17 @@
 			(uuid "9defe976-08af-4242-9f4c-4ce67523692b")
 		)
 		(embedded_fonts no)
+		(model "C:/Users/sidko/Desktop/GitHub/PCB-Projects/KiCad/Misc/LED.STEP"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
@@ -4594,7 +4682,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "4e29f10c-a847-45fe-8148-17c2eebb188f")
+			(uuid "b97bfbda-d900-4f62-869c-fb7cd5401d8f")
 		)
 		(fp_arc
 			(start -2.5 -1.566)
@@ -4605,7 +4693,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "92897a0d-bca3-4efc-9684-e211351ac91d")
+			(uuid "30edfd78-1aff-4d9e-8722-54602c561baf")
 		)
 		(fp_circle
 			(center -3.2 0)
@@ -4616,7 +4704,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "8a2fef13-10ff-49f1-ac47-60efc5ca0fc1")
+			(uuid "faf14848-b02e-4f79-ac78-424eebaa099d")
 		)
 		(fp_line
 			(start -2.75 -1.64)
@@ -4626,7 +4714,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "6a66adee-cf55-4c62-b13f-2e4a90a6b5c3")
+			(uuid "34a0a5c3-62ca-4379-b7b7-8aa70f4b276d")
 		)
 		(fp_arc
 			(start -2.75 -1.64)
@@ -4637,7 +4725,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "d2c64fca-a3da-488d-ab37-3fe39b3333fd")
+			(uuid "b437be76-03e8-47cc-80a7-81fef29f5445")
 		)
 		(fp_line
 			(start -2.5 -1.566)
@@ -4647,7 +4735,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "a4f2f670-bacb-48ff-ae02-648b158d472d")
+			(uuid "fda060fe-e46f-4712-8fa8-f3543e59310f")
 		)
 		(fp_arc
 			(start -2.5 -1.566)
@@ -4658,7 +4746,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "5ea70e6f-c97e-46f7-8e9f-9a432b8ef2ca")
+			(uuid "a4cca86f-e6cc-4b1d-95ab-70de7a502074")
 		)
 		(fp_circle
 			(center -3.2 0)
@@ -4669,7 +4757,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "6d1e50d3-20cb-4556-bf90-4120215196d2")
+			(uuid "5871278f-4d4a-4925-bcf5-9226e34d2fed")
 		)
 		(pad "A" thru_hole circle
 			(at 1.27 0 90)
@@ -4696,6 +4784,17 @@
 			(uuid "4ea308d5-b91a-4f51-a32c-f0231468a256")
 		)
 		(embedded_fonts no)
+		(model "C:/Users/sidko/Desktop/GitHub/PCB-Projects/KiCad/Misc/LED.STEP"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "B.Cu")
@@ -7218,7 +7317,7 @@
 		(uuid "ca488380-7014-4f21-96e5-f8ae7e27bc4a")
 	)
 	(via
-		(at 117.5 81.25)
+		(at 118.05 81.6)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")

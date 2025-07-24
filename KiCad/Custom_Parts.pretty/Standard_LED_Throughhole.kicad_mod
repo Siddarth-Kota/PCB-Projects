@@ -154,4 +154,15 @@
 		(uuid "487a1037-b403-4bd2-8c70-cf613ec6a54a")
 	)
 	(embedded_fonts no)
+	(model "C:/Users/sidko/Desktop/GitHub/PCB-Projects/KiCad/Misc/LED.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )
