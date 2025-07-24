@@ -489,7 +489,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "../../../../Downloads/Lab_Sensor.dsn",
-      "step": "",
+      "step": "Lab_Sensor_Version_1.step",
       "svg": "",
       "vrml": ""
     },
