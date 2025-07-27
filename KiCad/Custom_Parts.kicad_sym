@@ -882,7 +882,7 @@
 			(pin input line
 				(at 0 -11.43 90)
 				(length 6.35)
-				(name "SW"
+				(name "WS"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -900,7 +900,7 @@
 			(pin input line
 				(at 3.81 11.43 270)
 				(length 6.35)
-				(name "SO"
+				(name "SD"
 					(effects
 						(font
 							(size 1.27 1.27)
