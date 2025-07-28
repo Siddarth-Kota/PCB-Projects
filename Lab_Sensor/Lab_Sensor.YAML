@@ -40,8 +40,8 @@ i2c:
  
 i2s:
   bck_pin: 1                    #sck
-  ws_pin: 35                    # ws
-  din_pin: 0                   #SD
+  ws_pin: 5                    # ws
+  din_pin: 36                   #SD  (Input Only Pin)
   sample_rate: 48000            # default: 48000
   bits_per_sample: 32           # default: 32
   dma_buf_count: 8              # default: 8
@@ -79,7 +79,7 @@ switch:
     name: "StatusLED"
     id: StatusLED
   #- platform: gpio
-  #  pin:    33
+  #  pin:    0
   #  name: "Misc"
   # id: Misc
  
@@ -270,7 +270,7 @@ font:
 sensor:
   - platform: dht
     model: DHT11
-    pin: 36
+    pin: 33
     temperature:
       name: "Temperature"
       id: temp
