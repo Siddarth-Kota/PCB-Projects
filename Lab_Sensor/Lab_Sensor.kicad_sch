@@ -2252,6 +2252,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 57.15) (xy 210.82 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "420f37d9-6fb6-44e3-ad09-127c54e17114")
+	)
+	(wire
+		(pts
 			(xy 87.63 62.23) (xy 90.17 62.23)
 		)
 		(stroke
@@ -2272,7 +2282,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 90.17) (xy 59.69 92.71)
+			(xy 210.82 90.17) (xy 210.82 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2359,6 +2369,16 @@
 			(type default)
 		)
 		(uuid "6b219288-8f54-4a0b-975d-abe4273b918f")
+	)
+	(wire
+		(pts
+			(xy 210.82 57.15) (xy 210.82 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cb1da5b-0dc7-4ed5-84c8-295d17f54f0e")
 	)
 	(wire
 		(pts
@@ -2822,7 +2842,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 59.69 86.36 90)
+		(at 210.82 86.36 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2830,7 +2850,7 @@
 		(dnp no)
 		(uuid "15aba513-a068-42ac-a909-92f2b134d10c")
 		(property "Reference" "D6"
-			(at 60.96 85.598 90)
+			(at 212.09 85.598 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2839,7 +2859,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 60.96 87.63 90)
+			(at 212.09 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2849,7 +2869,7 @@
 			)
 		)
 		(property "Footprint" "Custom_Parts:Standard_LED_Throughhole"
-			(at 59.69 86.36 0)
+			(at 210.82 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2858,7 +2878,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 59.69 86.36 0)
+			(at 210.82 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2867,7 +2887,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 59.69 86.36 0)
+			(at 210.82 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2876,7 +2896,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 59.69 86.36 0)
+			(at 210.82 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5915,7 +5935,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 59.69 92.71 0)
+		(at 210.82 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5924,7 +5944,7 @@
 		(fields_autoplaced yes)
 		(uuid "cdc36e90-3f47-4481-ab31-e33ae6dd3942")
 		(property "Reference" "#PWR08"
-			(at 59.69 99.06 0)
+			(at 210.82 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5933,7 +5953,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 59.69 97.79 0)
+			(at 210.82 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5941,7 +5961,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 59.69 92.71 0)
+			(at 210.82 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5950,7 +5970,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 92.71 0)
+			(at 210.82 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5959,7 +5979,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 59.69 92.71 0)
+			(at 210.82 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
