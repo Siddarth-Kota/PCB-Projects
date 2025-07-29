@@ -39,7 +39,7 @@ i2c:
   frequency: 800kHz
  
 i2s:
-  bck_pin: 1                    #sck
+  bck_pin: 4                    #sck
   ws_pin: 5                    # ws
   din_pin: 36                   #SD  (Input Only Pin)
   sample_rate: 48000            # default: 48000

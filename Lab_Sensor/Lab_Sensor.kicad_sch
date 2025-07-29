@@ -2392,16 +2392,6 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 59.69) (xy 168.91 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7388d8ec-44ed-439c-98b7-3759389bd9e0")
-	)
-	(wire
-		(pts
 			(xy 153.67 62.23) (xy 166.37 62.23)
 		)
 		(stroke
@@ -2492,13 +2482,13 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 59.69) (xy 153.67 59.69)
+			(xy 168.91 67.31) (xy 153.67 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "960ef074-2a40-4b1a-8c2e-5876cf77fb94")
+		(uuid "8db17209-40a0-429f-8fe6-868bf3fa4bbc")
 	)
 	(wire
 		(pts
@@ -2559,6 +2549,16 @@
 			(type default)
 		)
 		(uuid "abe09e89-c6f1-4a52-8f10-17d17fc4c585")
+	)
+	(wire
+		(pts
+			(xy 168.91 106.68) (xy 168.91 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1ea3375-4292-4a67-822a-07642f7dac27")
 	)
 	(wire
 		(pts
@@ -5384,7 +5384,7 @@
 	)
 	(symbol
 		(lib_id "Custom_Parts:5002")
-		(at 153.67 67.31 0)
+		(at 153.67 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5392,7 +5392,7 @@
 		(dnp no)
 		(uuid "b54f0068-b7f9-4caa-adc6-93ddd688ab3b")
 		(property "Reference" "TP2"
-			(at 151.638 66.802 0)
+			(at 151.638 59.182 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -5401,7 +5401,7 @@
 			)
 		)
 		(property "Value" "5002"
-			(at 156.21 67.31 0)
+			(at 156.21 59.69 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -5410,7 +5410,7 @@
 			)
 		)
 		(property "Footprint" "Custom_Parts:5002"
-			(at 153.67 67.31 0)
+			(at 153.67 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5420,7 +5420,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 67.31 0)
+			(at 153.67 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5429,7 +5429,7 @@
 			)
 		)
 		(property "Description" "TestPoint"
-			(at 153.67 67.31 0)
+			(at 153.67 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5438,7 +5438,7 @@
 			)
 		)
 		(property "PARTREV" "H"
-			(at 153.67 67.31 0)
+			(at 153.67 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5448,7 +5448,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 153.67 67.31 0)
+			(at 153.67 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5458,7 +5458,7 @@
 			)
 		)
 		(property "SNAPEDA_PN" "5000"
-			(at 153.67 67.31 0)
+			(at 153.67 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5468,7 +5468,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "4.57 mm"
-			(at 153.67 67.31 0)
+			(at 153.67 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5478,7 +5478,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Keystone"
-			(at 153.67 67.31 0)
+			(at 153.67 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6135,7 +6135,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 151.13 59.69 0)
+		(at 151.13 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6143,7 +6143,7 @@
 		(dnp no)
 		(uuid "f2166af9-3ede-475c-b66c-b4d42dd330dd")
 		(property "Reference" "R11"
-			(at 153.162 58.928 0)
+			(at 153.162 66.548 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -6151,7 +6151,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 155.448 58.928 0)
+			(at 155.448 66.548 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -6159,7 +6159,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 151.13 59.69 0)
+			(at 151.13 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6168,7 +6168,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 151.13 59.69 0)
+			(at 151.13 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6177,7 +6177,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 151.13 59.436 0)
+			(at 151.13 67.056 0)
 			(effects
 				(font
 					(size 1.27 1.27)
