@@ -843,7 +843,7 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin power_in line
 				(at -3.81 -11.43 90)
 				(length 6.35)
 				(name "L/R"

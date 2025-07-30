@@ -252,8 +252,8 @@ display:
     address: 0x3C
     lambda: |-
       it.printf(0, 15, id(font2), "%.1f dBA", id(LAeq_1min).state);
-      // Print temperature in °F and humidity in %
-      it.printf(0, 35, id(font2), "%.1f °F, %.0f %%", id(temp).state, id(humidity).state);
+      // Print temperature in F and humidity in %
+      it.printf(0, 35, id(font2), "%.1f F, %.0f %%", id(temp).state, id(humidity).state);
  
  
    
@@ -290,7 +290,7 @@ sensor:
             - switch.turn_on: TRed
       filters:
         - lambda: return x * (9.0/5.0) + 32.0;
-      unit_of_measurement: "°F"
+      unit_of_measurement: "F"
     humidity:
       name: "Humidity"
       id: humidity
