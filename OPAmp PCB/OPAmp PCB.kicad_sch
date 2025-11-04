@@ -963,7 +963,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R_Small_US"
+		(symbol "R_Small_US_1"
 			(pin_numbers
 				(hide yes)
 			)
@@ -975,24 +975,24 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 0.762 0.508 0)
+				(at -1.27 1.778 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 0.762 0.762)
 					)
 					(justify left)
 				)
 			)
 			(property "Value" "R_Small_US"
-				(at 0.762 -1.016 0)
+				(at 0 1.778 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 0.762 0.762)
 					)
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1011,7 +1011,7 @@
 				)
 			)
 			(property "Description" "Resistor, small US symbol"
-				(at 0 0 0)
+				(at 0 0.254 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1037,10 +1037,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "R_Small_US_1_1"
+			(symbol "R_Small_US_1_1_1"
 				(polyline
 					(pts
-						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
+						(xy 0 0) (xy -0.381 -1.016) (xy -0.762 0) (xy -1.143 1.016) (xy -1.524 0)
 					)
 					(stroke
 						(width 0)
@@ -1052,7 +1052,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
+						(xy 1.524 0) (xy 1.143 -1.016) (xy 0.762 0) (xy 0.381 1.016) (xy 0 0)
 					)
 					(stroke
 						(width 0)
@@ -1063,7 +1063,25 @@
 					)
 				)
 				(pin passive line
-					(at 0 2.54 270)
+					(at -2.54 0 0)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
 					(length 1.016)
 					(name "~"
 						(effects
@@ -1080,8 +1098,110 @@
 						)
 					)
 				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "R_Small_US_2"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at -1.27 1.778 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Small_US"
+				(at 0 1.778 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small US symbol"
+				(at 0 0.254 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "r resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_US_2_1_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy -0.381 -1.016) (xy -0.762 0) (xy -1.143 1.016) (xy -1.524 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 0) (xy 1.143 -1.016) (xy 0.762 0) (xy 0.381 1.016) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
-					(at 0 -2.54 90)
+					(at -2.54 0 0)
 					(length 1.016)
 					(name "~"
 						(effects
@@ -1091,6 +1211,162 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "R_Small_US_3"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at -1.27 1.778 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Small_US"
+				(at 0 1.778 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small US symbol"
+				(at 0 0.254 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "r resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_US_3_1_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy -0.381 -1.016) (xy -0.762 0) (xy -1.143 1.016) (xy -1.524 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 0) (xy 1.143 -1.016) (xy 0.762 0) (xy 0.381 1.016) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2421,6 +2697,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 120.65) (xy 77.47 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca565f3e-d0b8-4085-8290-d1a4f97e1443")
+	)
+	(wire
+		(pts
 			(xy 160.02 66.04) (xy 165.1 66.04)
 		)
 		(stroke
@@ -2448,16 +2734,6 @@
 			(type default)
 		)
 		(uuid "d30cbf42-4b27-4480-8b1c-ddb9a3d850f8")
-	)
-	(wire
-		(pts
-			(xy 63.5 120.65) (xy 77.47 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d59c9a04-8c23-44f9-8336-ddbfd4f002af")
 	)
 	(wire
 		(pts
@@ -2857,76 +3133,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 83.82 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "18c1474d-ad4a-44bf-8a9f-e250adcc245d")
-		(property "Reference" "R1"
-			(at 86.36 69.8499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "47k"
-			(at 86.36 72.3899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 83.82 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 83.82 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 83.82 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0f09cfcc-9d65-4976-a356-95f7fcc3264c")
-		)
-		(pin "2"
-			(uuid "05086f97-31a2-4dce-b9e3-f3922c6bcf61")
-		)
-		(instances
-			(project ""
-				(path "/bb6aea29-3813-4033-85c6-fa5357d5717c"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 105.41 83.82 0)
 		(unit 1)
@@ -2993,36 +3199,36 @@
 		)
 	)
 	(symbol
+		(lib_name "R_Small_US_1")
 		(lib_id "Device:R_Small_US")
-		(at 160.02 134.62 0)
-		(mirror x)
+		(at 69.85 34.29 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2acb62dc-8067-4484-ac7a-bf6f9981aadc")
-		(property "Reference" "R5"
-			(at 162.56 135.8901 0)
+		(uuid "27f3c2b4-13f6-4fba-9f16-84d120b0223b")
+		(property "Reference" "R6"
+			(at 72.39 33.655 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "10"
-			(at 162.56 133.3501 0)
+		(property "Value" "1k"
+			(at 72.39 34.925 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 160.02 134.62 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 69.85 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3031,7 +3237,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 160.02 134.62 0)
+			(at 69.85 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3040,7 +3246,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 160.02 134.62 0)
+			(at 69.596 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3049,15 +3255,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "9be4457c-42bd-4d68-a221-e95139cf1dca")
+			(uuid "b052ee42-3c99-4aa5-8033-e12b82a883b8")
 		)
 		(pin "1"
-			(uuid "f798ccfd-a2f3-4c0d-b725-59408e7c1cd1")
+			(uuid "75d0e790-c56f-4525-87cf-6dc97c134602")
 		)
 		(instances
-			(project "OPAmp PCB"
+			(project ""
 				(path "/bb6aea29-3813-4033-85c6-fa5357d5717c"
-					(reference "R5")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -3276,36 +3482,36 @@
 		)
 	)
 	(symbol
+		(lib_name "R_Small_US_2")
 		(lib_id "Device:R_Small_US")
-		(at 160.02 96.52 0)
-		(mirror x)
+		(at 83.82 138.43 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4589d2bb-4485-477a-a638-ad0de1b80b4a")
-		(property "Reference" "R3"
-			(at 162.56 97.7901 0)
+		(uuid "3bdcfa9c-3bfc-4555-a54e-1cf5d4d68276")
+		(property "Reference" "R2"
+			(at 86.36 137.795 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "10"
-			(at 162.56 95.2501 0)
+		(property "Value" "47k"
+			(at 86.36 139.065 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 160.02 96.52 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 83.82 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3314,7 +3520,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 160.02 96.52 0)
+			(at 83.82 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3323,7 +3529,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 160.02 96.52 0)
+			(at 83.566 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3332,15 +3538,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "a2596aa2-a843-4125-9d5e-284be0b1a753")
+			(uuid "9107aeee-f798-476b-8309-186c50f167ca")
 		)
 		(pin "1"
-			(uuid "6321e108-f3ac-4375-a4e7-ea3a0779ef24")
+			(uuid "514a2c9d-88af-4e46-814d-9f6f53918324")
 		)
 		(instances
 			(project "OPAmp PCB"
 				(path "/bb6aea29-3813-4033-85c6-fa5357d5717c"
-					(reference "R3")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -3684,36 +3890,36 @@
 		)
 	)
 	(symbol
+		(lib_name "R_Small_US_2")
 		(lib_id "Device:R_Small_US")
-		(at 83.82 138.43 0)
-		(mirror x)
+		(at 83.82 71.12 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "765d6512-7832-4242-a4fa-60270977b32c")
-		(property "Reference" "R4"
-			(at 86.36 139.7001 0)
+		(uuid "7436d212-4a1e-4f04-8376-57b4810c186b")
+		(property "Reference" "R1"
+			(at 86.36 70.485 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "47k"
-			(at 86.36 137.1601 0)
+			(at 86.36 71.755 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 83.82 138.43 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 83.82 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3722,7 +3928,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 83.82 138.43 0)
+			(at 83.82 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3731,7 +3937,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 83.82 138.43 0)
+			(at 83.566 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3739,16 +3945,16 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "a9b40f0f-c345-46e3-8d83-c36fadf01248")
-		)
 		(pin "2"
-			(uuid "10c3e9b2-013e-4694-9907-6d356db72ae9")
+			(uuid "4aad5910-e4c1-4377-91df-281f8e0eacdc")
+		)
+		(pin "1"
+			(uuid "c534fc18-9378-4381-9660-65cc4e7b4543")
 		)
 		(instances
-			(project "OPAmp PCB"
+			(project ""
 				(path "/bb6aea29-3813-4033-85c6-fa5357d5717c"
-					(reference "R4")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -3832,7 +4038,7 @@
 		(dnp no)
 		(uuid "8200cd89-b406-4874-bb12-4ad24a54b9fd")
 		(property "Reference" "D1"
-			(at 72.644 25.654 90)
+			(at 72.644 25.654 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3895,6 +4101,77 @@
 			(project ""
 				(path "/bb6aea29-3813-4033-85c6-fa5357d5717c"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R_Small_US_3")
+		(lib_id "Device:R_Small_US")
+		(at 160.02 71.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "85b1548b-f6b7-4f29-ac98-c7ec46fc2d14")
+		(property "Reference" "R3"
+			(at 162.56 70.485 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10"
+			(at 162.56 71.755 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 160.02 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 159.766 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5a7ef27b-c161-4a60-b945-c2e389046a87")
+		)
+		(pin "2"
+			(uuid "91ffd002-2220-45db-a237-2fb1baa4efcd")
+		)
+		(instances
+			(project ""
+				(path "/bb6aea29-3813-4033-85c6-fa5357d5717c"
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -3967,76 +4244,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 160.02 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8db038c8-27e6-41ec-bd96-02c05481b0ab")
-		(property "Reference" "R2"
-			(at 162.56 69.8499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10"
-			(at 162.56 72.3899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 160.02 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 160.02 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 160.02 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a9b2f26d-8ea3-451c-a10c-a96af6574be6")
-		)
-		(pin "1"
-			(uuid "a2b06a5e-d212-44cd-992c-df919391865b")
-		)
-		(instances
-			(project ""
-				(path "/bb6aea29-3813-4033-85c6-fa5357d5717c"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VDC")
 		(at 69.85 21.59 0)
 		(unit 1)
@@ -4091,7 +4298,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "2aa8ec45-75a3-422d-ade8-9ee3fd889273")
+			(uuid "2aa8ec45-75a3-422d-ade8-9ee3fd889274")
 		)
 		(instances
 			(project ""
@@ -4839,10 +5046,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "7a49c93c-fa1f-48e3-a99c-538382311d33")
+			(uuid "7a49c93c-fa1f-48e3-a99c-538382311d34")
 		)
 		(pin "1"
-			(uuid "44d1ac50-dad5-4cc0-94fc-543c13a254dd")
+			(uuid "44d1ac50-dad5-4cc0-94fc-543c13a254de")
 		)
 		(instances
 			(project ""
@@ -5186,6 +5393,148 @@
 			(project "OPAmp PCB"
 				(path "/bb6aea29-3813-4033-85c6-fa5357d5717c"
 					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R_Small_US_3")
+		(lib_id "Device:R_Small_US")
+		(at 160.02 134.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e1b67be4-b8f7-4ca5-9b40-d781ebb6662d")
+		(property "Reference" "R5"
+			(at 162.56 133.985 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10"
+			(at 162.56 135.255 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 160.02 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 159.766 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c9a5d813-4951-4538-a0f9-3baa6fac600d")
+		)
+		(pin "2"
+			(uuid "409af90d-3714-4dad-82eb-5901bb7b921a")
+		)
+		(instances
+			(project "OPAmp PCB"
+				(path "/bb6aea29-3813-4033-85c6-fa5357d5717c"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R_Small_US_3")
+		(lib_id "Device:R_Small_US")
+		(at 160.02 96.52 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e1c86fb5-dcc2-4342-97b3-7cd5de450120")
+		(property "Reference" "R4"
+			(at 162.56 95.885 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10"
+			(at 162.56 97.155 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 160.02 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 159.766 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5389c62e-4077-493e-858d-17a6126ef747")
+		)
+		(pin "2"
+			(uuid "49171b2b-d825-4f4a-b566-4d995582034d")
+		)
+		(instances
+			(project "OPAmp PCB"
+				(path "/bb6aea29-3813-4033-85c6-fa5357d5717c"
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -5697,75 +6046,6 @@
 			(project ""
 				(path "/bb6aea29-3813-4033-85c6-fa5357d5717c"
 					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 69.85 34.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f6d8859f-b011-4e5a-ac97-f9d6d02effaa")
-		(property "Reference" "R6"
-			(at 71.12 33.528 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k"
-			(at 71.12 35.814 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 69.85 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 69.85 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 69.85 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2240df56-77c1-4665-8967-2c6a36ef5307")
-		)
-		(pin "1"
-			(uuid "f6233a89-2284-4395-b487-c71966ac6ebf")
-		)
-		(instances
-			(project "OPAmp PCB"
-				(path "/bb6aea29-3813-4033-85c6-fa5357d5717c"
-					(reference "R6")
 					(unit 1)
 				)
 			)
