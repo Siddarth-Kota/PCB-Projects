@@ -1,4 +1,5 @@
 (fp_lib_table
   (version 7)
   (lib (name "ImportedParts")(type "KiCad")(uri "${KIPRJMOD}/ImportedParts.pretty")(options "")(descr ""))
+  (lib (name "Espressif")(type "KiCad")(uri "${KIPRJMOD}/AddonParts/Footprints/Espressif.pretty")(options "")(descr ""))
 )
