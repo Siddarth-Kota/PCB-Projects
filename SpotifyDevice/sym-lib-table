@@ -1,5 +1,5 @@
 (sym_lib_table
   (version 7)
-  (lib (name "Imported Parts")(type "KiCad")(uri "${KIPRJMOD}/ImportedParts.kicad_sym")(options "")(descr ""))
-  (lib (name "Expressif")(type "KiCad")(uri "${KIPRJMOD}/Expressif.kicad_sym")(options "")(descr ""))
+  (lib (name "Imported Parts")(type "KiCad")(uri "${KIPRJMOD}/AddonParts/Symbols/ImportedParts.kicad_sym")(options "")(descr ""))
+  (lib (name "Expressif")(type "KiCad")(uri "${KIPRJMOD}/AddonParts/Symbols/Expressif.kicad_sym")(options "")(descr ""))
 )
