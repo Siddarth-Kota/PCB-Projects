@@ -1,2 +1,4 @@
 *.kicad_prl
 *.zip
+SpotifyDevice/fp-info-cache
+SpotifyDevice/ImportedParts.bak
