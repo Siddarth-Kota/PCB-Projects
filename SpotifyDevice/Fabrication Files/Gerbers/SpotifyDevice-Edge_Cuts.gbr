@@ -1,0 +1,23 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,9.0.6*%
+%TF.CreationDate,2025-12-24T02:07:10-08:00*%
+%TF.ProjectId,SpotifyDevice,53706f74-6966-4794-9465-766963652e6b,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Profile,NP*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 9.0.6) date 2025-12-24 02:07:10*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%TA.AperFunction,Profile*%
+%ADD10C,0.050000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+X89000000Y-51225000D02*
+X194050000Y-51225000D01*
+X194050000Y-137650000D01*
+X89000000Y-137650000D01*
+X89000000Y-51225000D01*
+M02*

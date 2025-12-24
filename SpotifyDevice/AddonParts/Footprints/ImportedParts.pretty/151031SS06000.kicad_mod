@@ -147,23 +147,23 @@
 		(uuid "59c50234-0baf-4464-9a7e-9b28e0c27362")
 	)
 	(fp_text user "+"
-		(at -2.9 0.1 0)
+		(at -2.9 -0.05 0)
 		(layer "F.SilkS")
 		(uuid "8e69a323-f123-40ba-9ad0-b901312da9be")
 		(effects
 			(font
-				(size 0.8 0.8)
+				(size 1 1)
 				(thickness 0.15)
 			)
 		)
 	)
 	(fp_text user "+"
-		(at -2.9 0.1 0)
+		(at -2.9 -0.05 0)
 		(layer "F.Fab")
 		(uuid "eb09f210-51c6-47be-b07d-df18be5217de")
 		(effects
 			(font
-				(size 0.8 0.8)
+				(size 1 1)
 				(thickness 0.15)
 			)
 		)
