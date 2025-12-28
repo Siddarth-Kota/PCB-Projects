@@ -80,7 +80,7 @@
 	(net 0 "")
 	(net 1 "3.3V")
 	(net 2 "GND")
-	(net 3 "Net-(D1-K)")
+	(net 3 "Net-(D1-A)")
 	(net 4 "Net-(D2-A)")
 	(net 5 "Net-(D3-A)")
 	(net 6 "Net-(D4-A)")
@@ -239,7 +239,7 @@
 		(path "/2de0cc0d-78c0-46d3-8a92-316d27c6f1fb")
 		(sheetname "/")
 		(sheetfile "SpotifyDevice.kicad_sch")
-		(attr through_hole exclude_from_bom dnp)
+		(attr through_hole)
 		(fp_line
 			(start -6 -6)
 			(end 6 -6)
@@ -1063,6 +1063,17 @@
 				(xyz 90 -0 -90)
 			)
 		)
+		(model "${KIPRJMOD}/AddonParts/3D_Models/Imported Parts/TFT_35_SPI.step"
+			(offset
+				(xyz 48.5 -28.25 2.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "ImportedParts:SW_B3F-4055"
 		(layer "F.Cu")
@@ -1169,7 +1180,7 @@
 		(path "/5edd6a05-5b7a-4941-8b98-33a6ba131093")
 		(sheetname "/")
 		(sheetfile "SpotifyDevice.kicad_sch")
-		(attr through_hole exclude_from_bom dnp)
+		(attr through_hole)
 		(fp_line
 			(start -6 -6)
 			(end 6 -6)
@@ -2613,7 +2624,7 @@
 		(path "/f55821f1-2a3d-47b0-abc1-fc446d88adb4")
 		(sheetname "/")
 		(sheetfile "SpotifyDevice.kicad_sch")
-		(attr through_hole exclude_from_bom dnp)
+		(attr through_hole)
 		(fp_line
 			(start -6 -6)
 			(end 6 -6)
@@ -3185,7 +3196,7 @@
 		(path "/2ac44fc3-7ffd-4ac0-bc2a-b4b2ae3c4b3a")
 		(sheetname "/")
 		(sheetfile "SpotifyDevice.kicad_sch")
-		(attr through_hole exclude_from_bom dnp)
+		(attr through_hole)
 		(fp_line
 			(start -6 -6)
 			(end 6 -6)
@@ -3524,7 +3535,7 @@
 		(path "/734965ed-20e2-48b0-af49-04047c894650")
 		(sheetname "/")
 		(sheetfile "SpotifyDevice.kicad_sch")
-		(attr through_hole exclude_from_bom dnp)
+		(attr through_hole)
 		(fp_line
 			(start -6 -6)
 			(end 6 -6)
@@ -4784,7 +4795,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 3 "Net-(D1-K)")
+			(net 3 "Net-(D1-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
@@ -4994,7 +5005,7 @@
 			(size 0.8 0.95)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net 3 "Net-(D1-K)")
+			(net 3 "Net-(D1-A)")
 			(pintype "passive")
 			(uuid "daf30788-2f0f-4f23-b0e0-404829ce1eaf")
 		)
@@ -6278,6 +6289,17 @@
 			)
 			(rotate
 				(xyz -90 -0 -90)
+			)
+		)
+		(model "${KIPRJMOD}/AddonParts/3D_Models/Imported Parts/ESP32-S3.step"
+			(offset
+				(xyz 14 -28.5 12)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 90)
 			)
 		)
 	)
