@@ -490,7 +490,7 @@
       "plot": "Gerbers/",
       "pos_files": "Fabrication Files/Plot Files/",
       "specctra_dsn": "",
-      "step": "",
+      "step": "SpotifyDevice.step",
       "svg": "",
       "vrml": ""
     },
