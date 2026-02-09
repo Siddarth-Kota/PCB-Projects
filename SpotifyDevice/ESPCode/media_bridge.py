@@ -44,11 +44,15 @@ async def get_media_info():
         return None, None, None, None, 0
 
 async def main():
-    try:
-        ser = serial.Serial(COM_PORT, BAUD_RATE, timeout=1)
-        print(f"✅ Linked to {COM_PORT}")
-    except Exception as e:
-        print(f"❌ Error: {e}"); return
+    ser = None
+    # Loop until connected
+    while ser is None:
+        try:
+            ser = serial.Serial(COM_PORT, BAUD_RATE, timeout=1)
+            print(f"✅ Linked to {COM_PORT}")
+        except Exception as e:
+            print(f"Waiting for {COM_PORT}... ({e})")
+            await asyncio.sleep(5) # Wait 5 seconds before retrying
 
     last_title, last_progress = "", -1
 
